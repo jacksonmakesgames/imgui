@@ -4834,7 +4834,7 @@ struct MyDocument
 {
     const char* Name;           // Document title
     bool        Open;           // Set when the document is open (in this demo, we keep an array of all available documents to simplify the demo)
-    bool        OpenPrev;       // Copy of Open from last update.
+    bool        OpenPrev;       // Copy of Open from last resetScroll.
     bool        Dirty;          // Set when the document has been modified
     bool        WantClose;      // Set when the document
     ImVec4      Color;          // An arbitrary variable associated to the document
